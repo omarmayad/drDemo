@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  font-size: 14px;
+  background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+.btn{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right:2%;
+}
+.min{
+  min-height: 89%;
+}
+.navbar-brand img {
+  padding: 0;
+  margin: auto;
+  width: 200px !important;
+  height: 100px !important;
+}
+.cits{
+  font-size: 12px;
+  font-weight: 200;
+}
+.container {
+  margin: 2%;
+  max-width: 95%;
+ 
+  background-color: white;
+}
+
+
+.ii {
+  background-color: rgb(25, 84, 151);
+  color: white;
+
+}
+
+
+
+.iii {
+  color: rgb(25, 84, 151);
+}
+
+
+
+nav {
+  background-color: white;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+
+.myborder {
+  border: 2px solid #dee2e6 !important
+}
+
+.res {
+
+  text-align: left;
+  margin: 5px;
+  border: 22px;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 20px !important;
+  background-color: rgb(245, 245, 245);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.publications {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+.me {
+  background-color: rgb(236, 138, 9);
+  color: white;
+}
+
+.cit {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  font-size:18px; 
+  margin: 3px;
+  border: 10px solid rgb(245, 245, 245) !important;
+
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.publicationHr {
+
+  height: 1px;
+  width: 20%;
+  float: right;
+}
