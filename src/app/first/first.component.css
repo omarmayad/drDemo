@@ -1,7 +1,19 @@
 body {
+  overflow-x: hidden;
   width: 100%;
   font-size: 14px;
   background-color: rgb(245, 245, 245);
+}
+
+.static-top {
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tee {
+  margin-top: 105px;
 }
 
 @media (min-width: 768px) {
@@ -9,28 +21,44 @@ body {
     font-size: 16px;
   }
 }
-.btn{
+
+@media (min-width: 768px) {
+  .tet {
+    margin-left: 5%;
+  }
+
+  .logoww {
+    width: 80%;
+
+  }
+}
+
+.btn {
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-right:2%;
+  margin-right: 2%;
 }
-.min{
+
+.min {
   min-height: 89%;
 }
+
 .navbar-brand img {
   padding: 0;
   margin: auto;
   width: 200px !important;
   height: 100px !important;
 }
-.cits{
+
+.cits {
   font-size: 12px;
   font-weight: 200;
 }
+
 .container {
   margin: 2%;
   max-width: 95%;
- 
+
   background-color: white;
 }
 
@@ -93,7 +121,7 @@ a {
 .cit {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: left;
-  font-size:18px; 
+  font-size: 18px;
   margin: 3px;
   border: 10px solid rgb(245, 245, 245) !important;
 
